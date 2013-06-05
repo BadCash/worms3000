@@ -42,9 +42,11 @@ The source code is available on GitHub at http://www.github.com/badcash/worms300
 Installation
 ------------
 This game can be downloaded and played directly in your browser. There are, however, a couple of things to keep in
-mind. First, your browser must obviously support HTML5 Canvas and HTML Audio. Secondly, it is possible to simply
-run the game in your browser directly from your local computer. However, if you're not running the game via a PHP-enabled
-webserver the highscore feature won't be available since it uses AJAX and PHP to store and retrieve the highscores.
+mind. First, your browser must obviously support HTML5 Canvas and HTML Audio. Secondly, while it is possible to simply
+run the game in your browser directly from your local computer, the highscore feature won't be available since it uses AJAX and PHP 
+to store and retrieve the highscores. 
+
+To install the game on your webserver simply download the sourcecode from GitHub and place it in a folder on your webserver. 
 
 **IMPORTANT NOTE: When installing the game on a webserver keep in mind that you have to make the highscores.txt file writable for
 PHP to be able to store the highscores!**
