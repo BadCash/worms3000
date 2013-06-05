@@ -14,10 +14,16 @@ eat. This makes the snake longer, and makes it more difficult to avoid colliding
 
 Variation
 ---------
-What makes this version of the classic snake game stand out is that instead of just being able to move straight up/down 
-or left/right, the player can actually steer the snake in any direction. Simply push the left- or right- arrow keys
-to turn, and the snake will make a smooth turn. Keep the key pressed down and you'll go in a full circle. Other features
-of this version are that the "food" moves and that sometimes enemies appear...
+There are many versions of the classic snake game available both online, in arcades and in mobile devices. The game really
+got a wide spread when Nokia started to ship the game in their phones. Most implementations stick to the games simplicity - 
+square shapes, a fixed grid, X/Y-movement and static food. 
+
+This version of the game tries to take it a few steps beyond that
+8 bit-feeling - instead of just being able to move straight up/down or left/right, the player can actually steer the snake 
+in any direction. Simply push the left- or right- arrow keys to turn, and the snake will make a smooth turn. Keep the key 
+pressed down and you'll go in a full circle. Other features of this version are that the "food" moves and that sometimes 
+enemies appear...
+
 
 
 
@@ -50,3 +56,4 @@ To install the game on your webserver simply download the sourcecode from GitHub
 
 **IMPORTANT NOTE: When installing the game on a webserver keep in mind that you have to make the highscores.txt file writable for
 PHP to be able to store the highscores!**
+
