@@ -1,6 +1,6 @@
 
 
-    WORMS3000
+WORMS3000
 =================
 
 Introduction
@@ -46,5 +46,5 @@ mind. First, your browser must obviously support HTML5 Canvas and HTML Audio. Se
 run the game in your browser directly from your local computer. However, if you're not running the game via a PHP-enabled
 webserver the highscore feature won't be available since it uses AJAX and PHP to store and retrieve the highscores.
 
-**When installing the game on a webserver keep in mind that you have to make the highscores.txt file writable for
+**IMPORTANT NOTE: When installing the game on a webserver keep in mind that you have to make the highscores.txt file writable for
 PHP to be able to store the highscores!**
