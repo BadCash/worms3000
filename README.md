@@ -30,7 +30,7 @@ HTML. The techniques used include Javascript, PHP, HTML5 Canvas, requestAnimatio
 
 Play the game
 -------------
-The game is available online at http://magnuswikhog.com/worms3000/worms.html or at http://www.student.bth.se/~mawi13/javascript/kmom0710/worms3000
+The game is available online at http://magnuswikhog.com/worms3000/worms.html or at http://www.student.bth.se/~mawi13/javascript/kmom0710/worms3000/worms.html
 
 
 
