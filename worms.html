@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang='en' class='no-js'>
+<head>
+	<meta charset='utf-8' />
+	<title>Worms3000</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script src="../../mall/js/modernizr.js"></script>
+</head>
+<body>
+
+	<div id="worms">
+		<div id="startscreen" class="menuscreen">
+			<div id="title">Worms<sup>3000</sup></div>
+			<p id="instructions">CONTROLS: LEFT ARROW=TURN LEFT | RIGHT ARROW=TURN RIGHT</p>
+			<div id="startbutton" class="bigbutton processing" disabled>Please wait...</div>
+			<table id="highscores">
+				<tr id="hsheader"><th colspan="3">Highscore list</th></tr>
+				<tr><td colspan="3" class="initial_loader"></td></tr>
+				<tr id="hsfooter"><th colspan="3"></td></tr>
+			</table>
+		</div>
+		<div id="gamescreen">
+			<div id="statusbar">
+				<span>Score: <span id="score">0</span></span>
+			</div>
+			<div id="canvascontainer">
+				<canvas id="canvas1" width="600" height="600">
+					Sorry, your browser doesn't support HTML5 Canvas!
+				</canvas>
+			</div>
+		</div>
+		<div id="gameoverscreen" class="menuscreen">
+			<p id="gameover">
+				GAME OVER
+			</p>
+			<p>
+				YOUR SCORE: <span id="yourscore"></span>
+			</p>
+			<form id="savescoreform" method="GET" action="#">
+				<input type="text" id="name" placeholder="Enter your name" required pattern="[a-zA-Z0-9]{3,10}" title="Enter your nickname (between 3 and 10 alphanumerical characters)">
+				<div id="savescorebutton" class="bigbutton">Save my score</div>
+				<div id="viewhighscorebutton" class="bigbutton">View highscores</div>
+				<div id="playagainbutton" class="bigbutton">Play again</div>
+				<input type="submit" value="skicka">
+			</form>
+		</div>
+	</div>
+
+	<!-- Below are only template elements -->
+
+	<table class="template">
+		<tr id="template_highscore" class="highscore">
+			<td class="time"></td>
+			<td class="name"></td>
+			<td class="score"></td>
+		</tr>
+	</table>
+	<script src="incl/jquery.js"></script>
+	<script src="incl/functions.js"></script>
+	<script src="main.js"></script>
+
+</body>
+</html>

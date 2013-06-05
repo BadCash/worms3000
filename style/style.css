@@ -1,0 +1,177 @@
+#worms {
+  overflow: auto;
+  padding: 0px;
+  background-color: #600606;
+  color: white;
+}
+#worms .template {
+  display: none;
+}
+#worms .menuscreen {
+  width: 600px;
+  min-height: 600px;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+  text-align: center;
+  overflow: auto;
+}
+#worms .glowingtext {
+  color: yellow;
+  text-shadow: 1px 1px 2px black, 0 0 1em #FFFF00, 0 0 0.3em #FFFF00;
+  margin-top: 60px;
+}
+#worms #startscreen {
+  font: 1em Verdana, Arial, Comic Sans MS;
+}
+#worms #startscreen #title {
+  font: 60px Verdana, Arial, Comic Sans MS;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: yellow;
+  text-shadow: 1px 1px 2px black, 0 0 1em #FFFF00, 0 0 0.3em #FFFF00;
+  margin-top: 60px;
+}
+#worms #startscreen #highscores {
+  color: black;
+  width: 100%;
+  text-align: left;
+  border-collapse: separate;
+  background-color: #FFFF00;
+  border: 1px #FF0 solid;
+  border-radius: 7px;
+  font-size: 100%;
+  border-spacing: 0;
+}
+#worms #startscreen #highscores tr,
+#worms #startscreen #highscores td {
+  border: 0;
+  margin: 0;
+  padding: 4px;
+}
+#worms #startscreen #highscores tr:nth-of-type(2n):not(#hsfooter) {
+  background-color: #A00A0A;
+  color: white;
+}
+#worms #startscreen #highscores tr:nth-of-type(2n+1):not(#hsheader):not(#hsfooter) {
+  background-color: #600606;
+  color: white;
+}
+#worms #startscreen #highscores th {
+  text-align: center;
+}
+#worms #startscreen #highscores td.initial_loader {
+  height: 10em;
+  background: url('..//img/loader.gif') center center no-repeat;
+  background-size: auto auto;
+}
+#worms #startscreen #highscores .header_loading {
+  background: url('../img/loader.gif') 10px center no-repeat;
+  background-size: auto 1em;
+}
+#worms #gameoverscreen {
+  display: none;
+  font: 20px Verdana, Arial, Comic Sans MS;
+  color: yellow;
+  text-shadow: 1px 1px 2px black, 0 0 1em #FFFF00, 0 0 0.3em #FFFF00;
+  margin-top: 60px;
+}
+#worms #gameoverscreen #gameover {
+  font: 60px Verdana, Arial, Comic Sans MS;
+  margin-top: 60px;
+}
+#worms #gameoverscreen input {
+  font: 30px Verdana, Arial, Comic Sans MS;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px black solid;
+  border-radius: 20px;
+}
+#worms #gameoverscreen input[type=submit] {
+  display: none;
+}
+#worms #gameoverscreen input::-webkit-input-placeholder {
+  font-style: italic;
+  color: silver;
+}
+#worms #gameoverscreen input:-moz-placeholder {
+  /* Firefox 18- */
+
+  font-style: italic;
+  color: silver;
+}
+#worms #gameoverscreen input::-moz-placeholder {
+  /* Firefox 19+ */
+
+  font-style: italic;
+  color: silver;
+}
+#worms #gameoverscreen input:-ms-input-placeholder {
+  font-style: italic;
+  color: silver;
+}
+#worms .bigbutton {
+  display: block;
+  cursor: pointer;
+  color: #500000;
+  border-radius: 20px;
+  font: bold 30px Verdana, Arial, Comic Sans MS;
+  text-shadow: 1px 1px 2px black, 0 0 1em #FFFF00, 0 0 0.3em #FFFF00;
+  border: 1px solid black;
+  background-color: #FF0000;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#worms .bigbutton:hover {
+  color: #A00000;
+  background-color: #FFFF00;
+  border-color: #FF0000;
+}
+#worms .bigbutton.processing {
+  background: #500000 url('../img/loader.gif') 10px center no-repeat;
+  background-size: auto 80%;
+}
+#worms .bigbutton.processing:hover {
+  color: #500000;
+  background-color: #500000;
+  border-color: black;
+}
+#worms #gamescreen {
+  display: none;
+  margin: 0 auto 0 auto;
+  padding: 0px;
+  width: 642px;
+  overflow: auto;
+}
+#worms #gamescreen #statusbar {
+  background-color: #A00A0A;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 5px;
+  width: 630px;
+  margin: 0px auto 5px auto;
+  color: yellow;
+  text-shadow: 1px 1px 2px black, 0 0 1em #FFFF00, 0 0 0.3em #FFFF00;
+  margin-top: 60px;
+}
+#worms #gamescreen #canvascontainer {
+  margin: 0 auto 0 auto;
+  width: 640px;
+  height: 640px;
+  display: block;
+  border-radius: 7px;
+  border: 1px black solid;
+  background: url('../img/classy_fabric.png') left top repeat;
+}
+#worms #gamescreen #canvas1 {
+  background-color: none;
+  width: 640px;
+  height: 640px;
+  margin: 0px;
+}
